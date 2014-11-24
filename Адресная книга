@@ -81,9 +81,9 @@ public class AddressManager {
                         System.out.println("Введите год рождения");
                         String year = sc.nextLine();
                         AddressBook.edit(addressBook, index, name, phone, email, year);
-                        System.out.println("Запись успешно изменена!");
+                        System.out.println("Запись успешно изменена");
                     } else {
-                        System.out.println("Неверно указан индекс!");
+                        System.out.println("Неверно указан индекс");
                     }
                     break;
                 case 7:
