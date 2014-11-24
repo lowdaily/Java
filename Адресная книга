@@ -88,10 +88,10 @@ public class AddressManager {
                     break;
                 case 7:
                     AddressBook.save(addressBook);
-                    System.out.println("Записи успешно сохранены!");
+                    System.out.println("Записи успешно сохранены");
                     break;
                 case 8:
-                    System.out.println("Спасибо за использование!");
+                    System.out.println("Спасибо за использование");
                     return;
                 default:
 
